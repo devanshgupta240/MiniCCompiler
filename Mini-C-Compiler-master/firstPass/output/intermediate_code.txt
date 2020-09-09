@@ -1,0 +1,33 @@
+function begin _fact
+T0 = _n_int_1
+T1 = 0
+T2 = T0 <= T1
+if T2 == 0 goto L7
+T2 = 1
+return T2
+L7:
+T2 = _n_int_1
+T1 = _n_int_1
+T0 = 1
+T3 = T1 - T0
+param T3
+refparam T3
+call _fact, 2
+T0 = T2 * T3
+return T0
+function end
+function begin main
+T0 = 3
+_n_int_2 = T0
+read T0
+_n_int_2 = T0
+T0 = _n_int_2
+param T0
+refparam T0
+call _fact, 2
+_f_int_2 = T0
+T0 = _f_int_2
+print T0
+T0 = 0
+return T0
+function end

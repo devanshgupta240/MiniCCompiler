@@ -1,0 +1,15 @@
+$$
+GLOBAL EMPTY 0 0 
+$1
+$2 0
+$$
+_fact int 1 92
+$1
+_n_int_1 0 1 0
+$2 0
+$$
+main int 0 100
+$1
+$2 2
+_n_int_2 0 2 92
+_f_int_2 0 2 96
